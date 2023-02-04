@@ -1,21 +1,21 @@
 {
-  "presets": [
-    [
-      "@nrwl/react/babel",
-      {
-        "runtime": "automatic"
-      }
-    ]
-  ],
-  "plugins": [
-    [
-      "module-resolver",
-      {
-        "alias": {
-          "^react-native$": "react-native-web"
-        }
-      }
+    "presets": [
+        [
+            "@nrwl/react/babel",
+            {
+                "runtime": "automatic"
+            }
+        ]
     ],
-    "react-native-web"
-  ]
+    "plugins": [
+        [
+            "module-resolver",
+            {
+                "alias": {
+                    "^react-native$": "react-native-web"
+                }
+            }
+        ],
+        "react-native-web"
+    ]
 }

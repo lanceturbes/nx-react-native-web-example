@@ -1,11 +1,9 @@
-import NxWelcome from './nx-welcome';
-import { NativeBaseProvider, Button } from 'native-base';
+import { NativeBaseProvider } from "native-base"
+
+import { RootNavigator } from "@/feature-navigation"
 
 export const App = () => (
-  <>
-    <NxWelcome title="app-web" />
     <NativeBaseProvider>
-      <Button>Cool</Button>
+        <RootNavigator />
     </NativeBaseProvider>
-  </>
-);
+)

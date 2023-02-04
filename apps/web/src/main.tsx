@@ -1,13 +1,13 @@
-import { StrictMode } from 'react';
-import { AppRegistry } from 'react-native';
+import { StrictMode } from "react"
+import { AppRegistry } from "react-native"
 
-import { App } from './app/app';
+import { App } from "./app/app"
 
-AppRegistry.registerComponent('App', () => () => (
-  <StrictMode>
-    <App />
-  </StrictMode>
-));
-AppRegistry.runApplication('App', {
-  rootTag: document.getElementById('root'),
-});
+AppRegistry.registerComponent("App", () => () => (
+    <StrictMode>
+        <App />
+    </StrictMode>
+))
+AppRegistry.runApplication("App", {
+    rootTag: document.getElementById("root")
+})
