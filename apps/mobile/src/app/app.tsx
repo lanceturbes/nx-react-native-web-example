@@ -1,7 +1,9 @@
-import { Button, NativeBaseProvider } from "native-base"
+import { NativeBaseProvider } from "native-base"
+
+import { RootNavigator } from "@/feature-navigation"
 
 export const App = () => (
     <NativeBaseProvider>
-        <Button>You rock!</Button>
+        <RootNavigator />
     </NativeBaseProvider>
 )
