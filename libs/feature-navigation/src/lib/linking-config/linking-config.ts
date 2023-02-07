@@ -4,6 +4,7 @@ import { Route } from "../route/route"
 
 export type LinkParamList = {
     [Route.HOME]: undefined
+    [Route.PROFILE]: undefined
 }
 
 export const linkingConfig: LinkingOptions<LinkParamList> = {
@@ -11,7 +12,8 @@ export const linkingConfig: LinkingOptions<LinkParamList> = {
     config: {
         initialRouteName: Route.HOME,
         screens: {
-            HOME: "/"
+            HOME: "/",
+            PROFILE: "/profile"
         }
     }
 }

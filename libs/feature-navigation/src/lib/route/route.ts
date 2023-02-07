@@ -1,3 +1,4 @@
 export enum Route {
-    HOME = "HOME"
+    HOME = "HOME",
+    PROFILE = "PROFILE"
 }

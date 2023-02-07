@@ -17,6 +17,9 @@
         "paths": {
             "@/feature-home": ["libs/feature-home/src/index.ts"],
             "@/feature-navigation": ["libs/feature-navigation/src/index.ts"],
+            "@/feature-user-profile": [
+                "libs/feature-user-profile/src/index.ts"
+            ],
             "@/util-layout": ["libs/util-layout/src/index.ts"]
         }
     },
