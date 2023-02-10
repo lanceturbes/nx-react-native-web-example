@@ -22,8 +22,8 @@
             "@waywardpooch/feature-user-profile": [
                 "libs/feature-user-profile/src/index.ts"
             ],
-            "@waywardpooch/util-layout": ["libs/util-layout/src/index.ts"],
-            "@waywardpooch/ui-common": ["libs/ui-common/src/index.ts"]
+            "@waywardpooch/ui-common": ["libs/ui-common/src/index.ts"],
+            "@waywardpooch/util-layout": ["libs/util-layout/src/index.ts"]
         }
     },
     "exclude": ["node_modules", "tmp"]
