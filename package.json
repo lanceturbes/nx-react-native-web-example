@@ -28,6 +28,7 @@
         "@nrwl/linter": "15.6.3",
         "@nrwl/react": "^15.6.3",
         "@nrwl/react-native": "^15.6.3",
+        "@nrwl/storybook": "^15.6.3",
         "@nrwl/webpack": "^15.6.3",
         "@nrwl/workspace": "15.6.3",
         "@pmmmwh/react-refresh-webpack-plugin": "^0.5.10",

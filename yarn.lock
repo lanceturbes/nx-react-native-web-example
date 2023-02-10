@@ -1641,6 +1641,18 @@
   dependencies:
     nx "15.6.3"
 
+"@nrwl/cypress@15.6.3":
+  version "15.6.3"
+  resolved "https://registry.yarnpkg.com/@nrwl/cypress/-/cypress-15.6.3.tgz#a9213555eb1581ad36f3df512ef5f32f77af9089"
+  integrity sha512-ZPQ60KTkEgCQaIhaoPICiACfufuE8klwkBSl3bbTL5d6QEYlpTb2M1IeHEYZP1aEKXJlC9Kb6al9lB87peNVkQ==
+  dependencies:
+    "@nrwl/devkit" "15.6.3"
+    "@nrwl/linter" "15.6.3"
+    "@nrwl/workspace" "15.6.3"
+    "@phenomnomnominal/tsquery" "4.1.1"
+    dotenv "~10.0.0"
+    semver "7.3.4"
+
 "@nrwl/detox@15.6.3":
   version "15.6.3"
   resolved "https://registry.yarnpkg.com/@nrwl/detox/-/detox-15.6.3.tgz#8bc45dbcf2cfee6752c2c9ec0d95fea9ef87c45e"
@@ -1762,6 +1774,18 @@
     "@phenomnomnominal/tsquery" "4.1.1"
     chalk "^4.1.0"
     minimatch "3.0.5"
+
+"@nrwl/storybook@^15.6.3":
+  version "15.6.3"
+  resolved "https://registry.yarnpkg.com/@nrwl/storybook/-/storybook-15.6.3.tgz#a23d12cd583a481ee39002f524d8441699a224f9"
+  integrity sha512-yaVW5AgStksM14bS9QF0GnXTHCrPM4trKf3nwKugYeBO0WWbqduOVNfks3sRPRerd3HqNohU9I9ihEnLufEc3w==
+  dependencies:
+    "@nrwl/cypress" "15.6.3"
+    "@nrwl/devkit" "15.6.3"
+    "@nrwl/linter" "15.6.3"
+    "@nrwl/workspace" "15.6.3"
+    dotenv "~10.0.0"
+    semver "7.3.4"
 
 "@nrwl/tao@15.6.3":
   version "15.6.3"
