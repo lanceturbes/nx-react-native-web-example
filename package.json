@@ -2,7 +2,16 @@
     "name": "nx-react-native-web-example",
     "version": "0.0.0",
     "license": "MIT",
-    "scripts": {},
+    "scripts": {
+        "all:format:check": "nx format:check --all",
+        "all:format:write": "nx format:write --all",
+        "all:lint": "nx run-many --target=lint",
+        "all:lint:fix": "nx run-many --target=lint --fix",
+        "android:build": "nx build-android mobile",
+        "android:bundle": "nx bundle-android mobile",
+        "android:start": "nx run-android mobile",
+        "web:start": "nx serve web"
+    },
     "private": true,
     "dependencies": {
         "@react-navigation/native": "6.1.2",
