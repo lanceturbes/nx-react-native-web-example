@@ -20,7 +20,8 @@
             "@/feature-user-profile": [
                 "libs/feature-user-profile/src/index.ts"
             ],
-            "@/util-layout": ["libs/util-layout/src/index.ts"]
+            "@/util-layout": ["libs/util-layout/src/index.ts"],
+            "ui-common": ["libs/ui-common/src/index.ts"]
         }
     },
     "exclude": ["node_modules", "tmp"]
