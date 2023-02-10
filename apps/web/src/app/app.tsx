@@ -1,6 +1,5 @@
+import { RootNavigator } from "@waywardpooch/feature-navigation"
 import { NativeBaseProvider } from "native-base"
-
-import { RootNavigator } from "@/feature-navigation"
 
 export const App = () => (
     <NativeBaseProvider>

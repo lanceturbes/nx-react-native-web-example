@@ -15,13 +15,15 @@
         "skipDefaultLibCheck": true,
         "baseUrl": ".",
         "paths": {
-            "@/feature-home": ["libs/feature-home/src/index.ts"],
-            "@/feature-navigation": ["libs/feature-navigation/src/index.ts"],
-            "@/feature-user-profile": [
+            "@waywardpooch/feature-home": ["libs/feature-home/src/index.ts"],
+            "@waywardpooch/feature-navigation": [
+                "libs/feature-navigation/src/index.ts"
+            ],
+            "@waywardpooch/feature-user-profile": [
                 "libs/feature-user-profile/src/index.ts"
             ],
-            "@/util-layout": ["libs/util-layout/src/index.ts"],
-            "ui-common": ["libs/ui-common/src/index.ts"]
+            "@waywardpooch/util-layout": ["libs/util-layout/src/index.ts"],
+            "@waywardpooch/ui-common": ["libs/ui-common/src/index.ts"]
         }
     },
     "exclude": ["node_modules", "tmp"]

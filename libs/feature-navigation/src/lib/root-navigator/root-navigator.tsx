@@ -3,9 +3,8 @@ import {
     createStackNavigator,
     StackNavigationOptions
 } from "@react-navigation/stack"
-
-import { HomeScreen } from "@/feature-home"
-import { UserProfileScreen } from "@/feature-user-profile"
+import { HomeScreen } from "@waywardpooch/feature-home"
+import { UserProfileScreen } from "@waywardpooch/feature-user-profile"
 
 import { HeaderBar } from "../header-bar/header-bar"
 import { linkingConfig } from "../linking-config/linking-config"
