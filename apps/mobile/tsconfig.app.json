@@ -8,11 +8,7 @@
         "jest.config.ts",
         "src/**/*.spec.ts",
         "src/**/*.spec.tsx",
-        "test-setup.ts",
-        "**/*.stories.ts",
-        "**/*.stories.js",
-        "**/*.stories.jsx",
-        "**/*.stories.tsx"
+        "test-setup.ts"
     ],
     "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.js", "src/**/*.jsx"]
 }
